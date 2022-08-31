@@ -1,0 +1,136 @@
+
+.is-root-container {
+  font-family: Rubik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  color: #2d3236;
+}
+
+.h1 {
+  font-size: 40px;
+  line-height: 52px;
+}
+.h2 {
+  font-size: 30px;
+  line-height: 30px;
+}
+.body-big {
+  font-size: 20px;
+  line-height: 32px;
+}
+.text-center {
+  text-align: center;
+}
+a:hover {
+  opacity: 0.9;
+}
+.top-bar {
+  padding: 23px 0;
+}
+.top-bar .container {
+  max-width: calc(1036px + 8%);
+}
+.hero {
+  padding: 49px 20px 60px;
+  position: relative;
+}
+.hero:before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #ff3859;
+  position: absolute;
+  left: 50%;
+  bottom: -16px;
+  transform: translate(-50%);
+}
+
+.slider--heading {
+  margin-top: 36px;
+}
+.slider--title {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.slider--subtitle {
+  font-size: 15px;
+  line-height: 24px;
+  color: gray;
+}
+.slider--item {
+  background-color: #fff;
+  color: #2d3236;
+  padding: 36px 28px;
+  justify-content: flex-start;
+  text-align: center;
+  aspect-ratio: 1/0.68816 !important;
+  width: 332px;
+  display: none; 
+}
+
+.slider--item:nth-child(-n+3) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider--item img {
+  margin-top: 12px;
+}
+.splide {
+  margin: 40px auto 0;
+}
+
+.splide__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.splide__arrow {
+  background-color: transparent;
+}
+.splide__arrow:before {
+  content: '';
+  width: 48px;
+  height: 48px;
+  display: block;
+  background-color: #fff0;
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.splide__arrow:hover:before {
+  content: '';
+  background-color: #ffffff0d;
+}
+.splide__arrow svg path {
+  fill: #28a9e0;
+}
+.splide__arrow--prev {
+  left: -46px;
+}
+.splide__arrow--next {
+  right: -46px;
+}
+.container {
+  max-width: 1036px;
+  margin: 0 15px;
+}
+@media (min-width: 992px) {
+  .container {
+    margin: 0 auto;
+  }
+}
+main {
+  background-color: #f1f6fc;
+  margin: 0 auto;
+  padding: 49px 0 72px;
+}
+.overflow-visible {
+  overflow: visible;
+}

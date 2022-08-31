@@ -1,0 +1,29 @@
+@import './scss/base/reset';
+@import './scss/base/rwd';
+@import './scss/base/typography';
+
+@import './scss/layout/header';
+
+@import './scss/components/hero';
+@import './scss/components/slider';
+
+.container {
+  max-width: 1036px;
+  margin: 0 15px;
+
+  @include lg {
+    margin: 0 auto;
+  }
+}
+
+main {
+  background-color: #f1f6fc;
+  margin: 0 auto;
+  padding: 49px 0px 72px 0px;
+}
+
+.overflow-visible {
+  overflow: visible;
+}
+
+//@import './scss/vendors/debug'; //<-- for development only

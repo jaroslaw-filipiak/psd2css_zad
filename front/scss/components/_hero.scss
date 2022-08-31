@@ -1,0 +1,17 @@
+.hero {
+  padding: 49px 20px 60px 20px;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ff3859;
+    position: absolute;
+    left: 50%;
+    bottom: -16px;
+    transform: translate(-50%, 0);
+  }
+}
